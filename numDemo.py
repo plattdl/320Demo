@@ -9,7 +9,7 @@ name = raw_input('Hello! What is your name?\n')
 number = random.randint(1, 20)
 
 #Comment! For hotfix
-
+#test
 print 'Hello, {0} I am thinking of a number between 1 and 20.'.format(name)
 
 while guesses_made < 6:
