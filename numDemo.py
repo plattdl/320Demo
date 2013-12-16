@@ -10,6 +10,7 @@ number = random.randint(1, 20)
 
 #Comment! For hotfix
 print 'Hello, {0} I am thinking of a number between 1 and 20.'.format(name)
+#comments!
 
 while guesses_made < 6:
 
@@ -25,7 +26,7 @@ while guesses_made < 6:
 
     if guess == number:
         break
-
+#kdjfdk
 if guess == number:
     print 'Nice, {0}! You guessed my number in {1} guesses!'.format(name, guesses_made)
 else:
